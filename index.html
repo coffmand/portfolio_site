@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Udacity FSND Proj 2 - Portfolio Site" />
+    <meta name="author" content="Don Coffman">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="html css svg responsive">
+    <base target="_blank">
+
+    <title>Portfolio Site: Don Coffman</title>
+
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link href="http://fonts.googleapis.com/css?family=Helvetica:300,400,500,700" rel="stylesheet" type="text/css">
+
+  </head>
+  <body>
+    <header>
+        <!-- Logo (Imbedded SVG code) -->
+      <svg class="logo-dhc" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 55">
+        <title>Responsive Logo</title>
+        <circle class="logo-bg-cir" cx="27.5" cy="27.5" r="25"/>
+        <path class="logo-fg-sqs" d="M25,5 h5v5h-5z M5,25 h5v5h-5z M25,45 h5v5h-5z M45,25 h5v5h-5z"/>
+        <circle class="logo-fg-cir" cx="27.5" cy="7.5" r="1"/>
+        <circle class="logo-fg-cir" cx="7.5" cy="27.5" r="1"/>
+        <circle class="logo-fg-cir" cx="27.5" cy="47.5" r="1"/>
+        <circle class="logo-fg-cir" cx="47.5" cy="27.5" r="1"/>
+        <path class="logo-fg-sides"
+              d="M27.5,7.5 L5,25 L10,25 Z
+                 M27.5,7.5 L10,25 L10,30 Z
+                 M7.5,27.5 L25,45 L25,50 Z
+                 M7.5,27.5 L25,45 L30,45 Z
+                 M27.5,47.5 L45,25 L45,30 Z
+                 M27.5,47.5 L45,30 L50,30 Z
+                 M47.5,27.5 L25,10 L30,10 Z
+                 M47.5,27.5 L30,10 L30,5 Z"/>
+      </svg>
+      <div class="owner">
+        <h1 class="name">Don Coffman</h1>
+        <h2 class="title">Software Engineer</h2>
+      </div>
+
+    </header>
+
+    <hr>
+
+    <main>
+      <div class="banner-container">
+        <picture class="banner">
+          <source media="(min-width: 900px)" srcset="img/banner_1800x720.jpg 2x, img/banner_1200x480.jpg" />
+          <source media="(min-width: 768px)" srcset="img/banner_1536x614.jpg 2x, img/banner_768x307.jpg" />
+          <source media="(min-width: 550px)" srcset="img/banner_1536x614.jpg 2x, img/banner_768x307.jpg" />
+          <source media="(min-width: 360px)" srcset="img/banner_720x480.jpg 2x, img/banner_360x240.jpg" />
+          <img src="img/banner_360x240.jpg" alt="Computer Programming Code">
+        </picture>
+      </div>
+
+      <H2 class="project-container-header">Featured Work</H2>
+      <section class="project-section-container">
+        <div class="project-container" title="Udacity Full Stack NanoDegree - Project 1: Movie Trailer Website">
+          <picture class="project-poster-image">
+            <source media="(min-width: 360px)" srcset="img/proj_1_poster_240x180.jpg" />
+            <img class="image" src="img/proj_1_poster_240x180.jpg" alt="Image for Udacity FSND Project 1: Movie Trailer Website">
+          </picture>
+          <H2 class="project-name">Movie Trailer Website</H2>
+          <a href="https://github.com/coffmand/movie_website.git"
+           class="github-link" title="Link to GitHub Repository for Movie Trailer Website project">https://github.com/coffmand/movie_website.git</a>
+        </div>
+        <div class="project-container" title="Udacity Full Stack NanoDegree - Project 2: Portfolio Site">
+          <picture class="project-poster-image">
+            <source media="(min-width: 360px)" srcset="img/proj_2_poster_240x180.jpg" />
+            <img class="image" src="img/proj_2_poster_240x180.jpg" alt="Image for Udacity FSND Project 2: Portfolio Site">
+          </picture>
+          <H2 class="project-name">Portfolio Site</H2>
+          <a href="https://github.com/coffmand/portfolio_site.git"
+           class="github-link" title="Link to GitHub Repository for Portfolio Site project">https://github.com/coffmand/portfolio_site.git</a>
+        </div>
+
+        <!-- Placeholders for Projects 3 through 6 -->
+        <div class="project-container" title="Udacity Full Stack NanoDegree - Project 3: TBD">
+          <picture class="project-poster-image">
+            <source media="(min-width: 360px)" srcset="img/proj_3_poster_240x180.jpg" />
+            <img class="image" src="img/proj_3_poster_240x180.jpg" alt="Image for Udacity FSND Project 3: TBD">
+          </picture>
+          <H2 class="project-name">TBD</H2>
+          <a href="#"
+           class="github-link" title="Link to GitHub Repository for TBD project">(GitHub Link: TBD)</a>
+        </div>
+        <div class="project-container" title="Udacity Full Stack NanoDegree - Project 4: TBD">
+          <picture class="project-poster-image">
+            <source media="(min-width: 360px)" srcset="img/proj_4_poster_240x180.jpg" />
+            <img class="image" src="img/proj_4_poster_240x180.jpg" alt="Image for Udacity FSND Project 4: TBD">
+          </picture>
+          <H2 class="project-name">TBD</H2>
+          <a href="#"
+           class="github-link" title="Link to GitHub Repository for TBD project">(GitHub Link: TBD)</a>
+        </div>
+        <div class="project-container" title="Udacity Full Stack NanoDegree - Project 5: TBD">
+          <picture class="project-poster-image">
+            <source media="(min-width: 360px)" srcset="img/proj_5_poster_240x180.jpg" />
+            <img class="image" src="img/proj_5_poster_240x180.jpg" alt="Image for Udacity FSND Project 5: TBD">
+          </picture>
+          <H2 class="project-name">TBD</H2>
+          <a href="#"
+           class="github-link" title="Link to GitHub Repository for TBD project">(GitHub Link: TBD)</a>
+        </div>
+        <div class="project-container" title="Udacity Full Stack NanoDegree - Project 6: TBD">
+          <picture class="project-poster-image">
+            <source media="(min-width: 360px)" srcset="img/proj_6_poster_240x180.jpg" />
+            <img class="image" src="img/proj_6_poster_240x180.jpg" alt="Image for Udacity FSND Project 6: TBD">
+          </picture>
+          <H2 class="project-name">TBD</H2>
+          <a href="#"
+           class="github-link" title="Link to GitHub Repository for TBD project">(GitHub Link: TBD)</a>
+        </div>
+      </section>
+    </main>
+
+    <hr>
+
+    <footer>
+      <p class="author-note">By Don Coffman 2018</p>
+    </footer>
+  </body>
+</html>

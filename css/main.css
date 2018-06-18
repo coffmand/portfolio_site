@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica', sans-serif;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(#add8e6, #e0ffff);
+}
+
+.owner {
+  display: inline-block;
+  float: right;
+  width: 12em;
+  flex: 1 1 0;
+  margin: 5px;
+}
+
+.name {
+  font-weight: 500;
+  text-align: right;
+  font-size: 30px;
+  line-height: 1.2em;
+  margin: 5px 5px 0 5px;
+  padding: 5px;
+  color: #2d3c49;
+}
+
+.title {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 16px;
+  text-align: right;
+  margin: 0 5px 0 5px;
+  padding: 0 5px 0 5px;
+}
+
+
+.logo-dhc {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  flex: 0 0 auto;
+}
+
+.logo-bg-cir {
+  stroke: #000000;
+  stroke-width: 1.0px;
+  /* fill: #4682B4; */
+  fill: none;
+}
+
+.logo-fg-sqs, .logo-fg-sides {
+  stroke: #000;
+  stroke-width: 0.5px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: #d3d3d3;
+}
+
+.logo-fg-cir {
+  stroke: #000;
+  stroke-width: 0.5px;
+  fill: #00FFFF;
+}
+
+header:hover svg {
+  -webkit-filter: drop-shadow(2px 2px 2px #708090);
+  filter: drop-shadow(2px 2px 2px #708090);
+  transition: all 0.2s;
+}
+
+
+hr {
+  width: 100%;
+  color: #7d97ad;
+}
+
+.author-note {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 12px;
+  text-align: left;
+  margin: 5px;
+}
+
+.banner img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+}
+
+.banner {
+  transition: all 0.3s;
+}
+
+.project-container-header {
+  color: #7d97ad;
+  text-align: left;
+  font-size: 24px;
+  line-height: 1.2em;
+  margin: 20px 5px 0 5px;
+}
+
+.project-section-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 290px;
+  height:250px;
+  flex: 1 0 auto;
+  padding: 5px;
+}
+
+.project-container:hover {
+  background-color: #EEE;
+  cursor: pointer;
+  transform: scale(1.05);
+  transition-property: transform;
+  transition-duration: 200ms;
+}
+
+.project-poster-image img {
+  max-width: 100%;
+  position: relative;
+  top: 0;
+  flex: 1 0 auto;
+}
+
+.project-name {
+  color: #2d3c49;
+  text-align: center;
+  font-size: 24px;
+  line-height: 1.2em;
+  margin: 0 5px;
+  flex: 1 0 auto;
+}
+
+.github-link {
+  display: block;
+  color: #2d3c49;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.2em;
+  margin: 5px 0 0 0;
+  flex: 1 0 auto;
+}
+
+footer {
+  padding: 10px;
+  background-image: linear-gradient(#e0ffff, #add8e6);
+}
